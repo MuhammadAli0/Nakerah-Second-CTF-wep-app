@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MY Challenge</title>
+        <link rel="stylesheet" type="text/css" href="/static/style.css" />
+    </head>
+    <body background="/static/x1.jpg" >
+
+	
+ <p hidden>01110000011000010111001101110011011100000110100001110010011000010111001101100101001000000110100101110011001000000011000100110010001100110011010000100000011010110110010101100101011100000010000001101000011101010110111001110100011010010110111001100111</p> 
+        <div id="content">
+	
+
+            {% block body %}{% endblock %}
+	
+        </div>
+<font color="red">
+        <div id="nav">
+            Navigation:<br />
+            <ul>
+		
+                {% block nav %}{% endblock %}
+                <li><a href="{{url_for('remote')}}">remote control</a></li>
+            </ul>
+        </div>
+</font>
+    </body>
+</html>

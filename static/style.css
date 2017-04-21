@@ -1,0 +1,15 @@
+body{
+    font-family:'eW91IGdvdCAxIGhpbnQgPHN0ZWdoaWRlPg', serif;
+    color:#fff;
+}
+
+#nav {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 20em;
+}
+ 
+#content {
+    margin-left: 10em;
+}
